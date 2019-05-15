@@ -2,8 +2,8 @@
   <div>
     <div class="title">热销推荐</div>
     <ul>
-      <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
-        <img class='item-img' :src="item.imgURL">
+      <li class="item border-bottom" v-for="item of list" :key="item.id">
+        <img class='item-img' :src="item.imgUrl">
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
           <p class="item-desc">{{item.desc}}</p>
@@ -17,25 +17,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgURL: 'http://img1.qunarzz.com/sight/p0/1709/41/411f234d79457081a3.img.jpg_200x200_ea02ef99.jpg',
-        title: '长隆野生动物园',
-        desc: '长隆野生动物园，长隆野生动物园'
-      }, {
-        id: '0002',
-        imgURL: 'http://img1.qunarzz.com/sight/p0/1709/41/411f234d79457081a3.img.jpg_200x200_ea02ef99.jpg',
-        title: '长隆野生动物园',
-        desc: '长隆野生动物园，长隆野生动物园'
-      }, {
-        id: '0003',
-        imgURL: 'http://img1.qunarzz.com/sight/p0/1709/41/411f234d79457081a3.img.jpg_200x200_ea02ef99.jpg',
-        title: '长隆野生动物园',
-        desc: '长隆野生动物园，长隆野生动物园'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
