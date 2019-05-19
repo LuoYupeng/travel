@@ -25,3 +25,11 @@ npm run dev
 - 插件axios、vue-awesome-swiper、better-scroll
 - stylus:CSS预处理器
 
+###项目预览
+<div style='display:flex,flex-wrap:nowrap'>  
+<img src="https://i.loli.net/2019/05/19/5ce159f93fc3f34608.png" alt="WechatIMG7.png"  style="width:50px" />
+<img src="https://i.loli.net/2019/05/19/5ce159f95317b37629.jpeg" alt="WechatIMG3.jpeg" style="width:50px" />
+<img src="https://i.loli.net/2019/05/19/5ce159f95a57e47298.jpeg" alt="WechatIMG4.jpeg" style="width:50px" />
+<img src="https://i.loli.net/2019/05/19/5ce159f9738b144983.png" alt="WechatIMG6.png" style="width:50px"/>
+<img src="https://i.loli.net/2019/05/19/5ce159f9781c741081.jpeg" alt="WechatIMG5.jpeg" style="width:50px" />
+</div>
