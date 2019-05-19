@@ -1,21 +1,27 @@
-# travel
+# 仿-Vue开发去哪儿网手机页面
 
-> A Vue.js project
 
-## Build Setup
 
-``` bash
-# install dependencies
+### 项目启动
+
+``` 
+# 拷贝项目到本地
+git clone git@github.com:LuoYupeng/travel.git
+
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 在localhost:8080启动本地服务器
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
+>   Vue单页面开发应用
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+>   由axios负责数据请求，Vue-router负责路由转发，Vuex实现状态管理
+  
+
+### 应用技术
+- Vue、Vue-router、Vuex
+- 插件axios、vue-awesome-swiper、better-scroll
+- stylus:CSS预处理器
+
